@@ -1,0 +1,76 @@
+header{
+	background-color: #CF5300;
+	color: white;
+	width: 20%;
+	height: 2em;
+	text-align: center;
+	font-style: white;
+	margin-top: 1em;
+	margin-left: 1em;
+	margin-bottom: .5em;
+	font-size: 120%;
+}
+body{
+
+	height: 100%;
+	margin-left: 1em;
+	background-image: url("../images/clouds.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+ul{
+	background-color: rgb(251, 246, 173);
+	width: 50%;
+}
+li{
+	color: green;
+}
+h3, h4{
+	background-color: #41b7a2;
+	color: white;
+	font-size: 2em;
+	width: 10em;
+	text-align: center;
+}
+.winsLosses{
+	height: 3em;
+	width: 50%;
+	background-color: lightblue;
+	margin-top: 1em;
+}
+.elementBtn{
+	padding-right: .5em;
+	margin-top: 1em;
+}
+
+#randomNumber{
+	background-color: lightgreen;
+	height:100%;
+
+	width: 50%;
+}
+
+
+#fire{
+	height: 4em;
+	width: 4em;
+}
+#leaf{
+	height: 4em;
+	width: 4em;
+}
+#lightning{
+	height: 4em;
+	width: 4em;
+}
+#water{
+	height: 4em;
+	width: 4em;
+}
+#wins{
+	width: 50%;
+}
+#loss{
+	width: 100%;
+}
+

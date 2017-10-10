@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>RPG Game</title>
+ 
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous"> 
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+	<div>
+	Elements Collecter!
+	</div>
+</header>
+
+<div>
+	<ul>
+<li>You will be given random number at the start of the game.</li>
+
+<li>There are four elements below.  By clicking on a creystal you will add a specific amount of points to your toal score.</li>
+
+<li>You win the game by matching your total score to random number, you lose the game if your total score goes oveer the random number.</li>
+
+<li>Each time when the game starts, the game will change the values of each crystal.</li>
+	</ul>
+</div>
+<div>
+	<section id = "randomNumber">Random Number to Get: </section>
+	<section class = "winsLosses" id = "wins">Win Counter: </section>
+	<section class = "winsLosses" id = "losses"> Loss Counter: </section>
+</div>
+<div id = "buttons"> 
+	<button class= "elementBtn" id = "btn1"><img id = "fire" src="assets/images/fire.png" alt="fire"></button>
+	<button class= "elementBtn" id = "btn2"><img id = "leaf" src="assets/images/leaf.png" alt="leaf"></button>
+	<button class= "elementBtn" id = "btn3"><img id = "lightning" src="assets/images/lightning.png" alt="lightning"></button>
+	<button class= "elementBtn" id = "btn4"><img id = "water" src="assets/images/water.png" alt="water"></button>
+
+
+</div>
+<div> 
+	<h3> Your total Score is: </h3>
+	<h4 id= "totalScore">?</h4> 
+</div>
+
+
+
+
+
+
+
+<script type = "text/javascript" src = "assets/javascript/game.js"></script>
+
+</body>
+</html>
